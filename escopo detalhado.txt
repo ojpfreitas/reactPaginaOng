@@ -1,0 +1,73 @@
+Home
+Objetivo: Apresentação geral da ONG.
+
+Conteúdo:
+Logo
+Resumo institucional
+Estatísticas (resgatados, adotados, consultas)
+
+
+Sobre
+Objetivo: Mostrar história da ong
+
+Conteúdo:
+História da ONG
+Missão, visão e valores
+Parceiros
+Fotos institucionais
+
+
+Adoção
+Objetivo: Exibir animais disponíveis.
+
+Conteúdo:
+Listagem de animais.
+
+Filtros (porte, idade, sexo)
+Página individual do animal
+Botão "Quero Adotar"
+Formulário de pré-adoção
+
+
+Como Ajudar
+
+Objetivo: Captação de recursos.
+
+Conteúdo:
+Doação via Pix
+Conta bancária
+Doação recorrente
+Apadrinhamento
+
+
+Dicas e Cuidados
+Objetivo: Conteúdo educativo.
+
+Conteúdo:
+Alimentação
+Higiene
+Vacinação
+Castração
+
+
+Eventos
+Objetivo: Divulgação de ações.
+
+Conteúdo:
+Eventos futuros
+Eventos passados
+Fotos
+Local e data
+Botão para compartilhar momento
+
+
+Fale Conosco
+Objetivo: Comunicação direta.
+
+Conteúdo:
+Formulário de contato
+Endereço
+Telefone
+WhatsApp
+Redes sociais
+Voluntariado

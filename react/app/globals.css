@@ -1,0 +1,209 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #3a7ca5;
+}
+
+.container {
+  background-color: #3a7ca5;
+}
+
+.divIsolada {
+  background-color: #2da8e0;
+  height: 80px;
+}
+
+.divIsolada2 {
+  background-color: #743b69;
+  height: 100px;
+}
+
+.header {
+  display: flex;
+  font-family: var(--font-roboto);
+  color: #ffffff;
+}
+
+.header ul {
+  margin-top: 100px;
+}
+
+.header li {
+  display: inline-block;
+  padding-left: 30px;
+  text-decoration: underline;
+}
+
+.header a {
+  text-decoration: none;
+  color: white;
+}
+
+.logo {
+  border-radius: 15px;
+  margin: 30px;
+}
+
+.foto1 {
+  margin: 30px;
+}
+
+.containerCorpo {
+  display: flex;
+  margin: 50px;
+  font-family: var(--font-open);
+  color: #ffffff;
+}
+
+.rodape {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 50px;
+  color: #ffffff;
+}
+
+.rodape div {
+  padding-left: 80px;
+  padding-right: 80px;
+}
+
+.divGrafico {
+  display: flex;
+  align-items: center;
+  margin: 20px;
+  justify-content: center;
+  color: #ffffff;
+  font-family: var(--font-roboto);
+}
+
+.divGrafico div {
+  text-align: center;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.parceiros {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  color: #ffffff;
+  font-family: var(--font-open);
+}
+
+.logoParceiros {
+  padding-bottom: 60px;
+  padding-right: 20px;
+}
+
+.animaisAdocao {
+  text-align: center;
+  color: #ffffff;
+  font-family: var(--font-open);
+}
+
+.imagensAnimais {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+  justify-items: center;
+}
+
+.cardAnimal {
+  background-color: #2da8e0;
+  display: flex;
+  align-items: center;
+  width: 450px;
+  padding: 15px;
+  border-radius: 12px;
+  gap: 20px;
+}
+
+.cardAnimal p {
+  margin: 6px 0;
+  text-align: left;
+}
+
+.buttonAdotar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  margin-bottom: 80px;
+}
+
+.buttonAdotar button {
+  background-color: #c63d78;
+  padding: 15px 40px;
+  border: none;
+  border-radius: 8px;
+  color: #ffffff;
+  cursor: pointer;
+  font-family: var(--font-roboto);
+}
+
+/* Overlay escuro */
+.overlay {
+  position: fixed;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+/* Form container */
+.formulario {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dadosForm {
+  background-color: #7a3b69;
+  width: 500px;
+  height: 600px;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.camposForm {
+  margin: 10px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  background-color: #ff89ed;
+  margin-bottom: 20px;
+  font-size: 20px;
+  font-family: var(--font-roboto);
+  color: #000000;
+  border-radius: 6px;
+  padding: 8px;
+  border: none;
+}
+
+input::placeholder {
+  color: #000000;
+}
+
+.tituloForm {
+  font-family: var(--font-open);
+  text-align: center;
+  color: #ffffff;
+}
+
+.voltar {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.buttonX {
+  cursor: pointer;
+}

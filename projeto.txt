@@ -1,0 +1,6 @@
+utilizar a raiz como a home.
+
+criar uma pasta para cada tela e dentro dela ter o seu page.
+
+criar compomentes para otimizar codigo, coisas que são repetidas em telas, criar o componente para facilitar o uso.
+
