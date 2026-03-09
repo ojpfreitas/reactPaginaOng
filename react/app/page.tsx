@@ -1,35 +1,11 @@
 import Image from "next/image";
 import Link from "next/link";
+import Header from "./components/Header";
 
 export default function Home() {
   return (
     <main className="container">
-
-      <header>
-        <div className="header">
-          <div>
-            <Image
-              src="/logos/logo-ong.png"
-              alt="Logo ONG"
-              width={100}
-              height={100}
-              className="logo"
-            />
-          </div>
-
-          <ul>
-            <li><Link href="/">Home</Link></li>
-            <li><Link href="/sobre">Sobre</Link></li>
-            <li><Link href="/adocao">Adoção</Link></li>
-            <li><Link href="/comoAjudar">Como Ajudar</Link></li>
-            <li><Link href="/dicasCuidados">Dicas e Cuidados</Link></li>
-            <li><Link href="/eventos">Eventos</Link></li>
-            <li><Link href="/faleConosco">Fale Conosco</Link></li>
-          </ul>
-        </div>
-
-        <div className="divIsolada"></div>
-      </header>
+      <Header />
 
       {/* Primeira Seção */}
       <div className="containerCorpo">
@@ -91,8 +67,8 @@ export default function Home() {
 
       <div className="divIsolada"></div>
 
-      {/* Footer */}
       <footer className="rodape">
+
         <div>
           <p>Link pagina 1</p>
         </div>
@@ -100,13 +76,14 @@ export default function Home() {
         <div>
           <p>Anim@al ponto.com</p>
           <p>CNPJ 01.030.234/0001-42</p>
-          <p>Endereço: Rua , 123,</p>
+          <p>Endereço: Rua , 123</p>
           <p>Criciúma-SC CEP: 88800-000</p>
         </div>
 
         <div>
           <p>Desenvolvido por</p>
         </div>
+
       </footer>
 
     </main>

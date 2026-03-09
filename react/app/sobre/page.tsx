@@ -20,8 +20,8 @@ export default function Sobre() {
             <li><Link href="/">Home</Link></li>
             <li><Link href="/sobre">Sobre</Link></li>
             <li><Link href="/adocao">Adoção</Link></li>
-            <li><Link href="/como-ajudar">Como Ajudar</Link></li>
-            <li><Link href="/dicas-cuidados">Dicas e Cuidados</Link></li>
+            <li><Link href="/comoAjudar">Como Ajudar</Link></li>
+            <li><Link href="/dicasCuidados">Dicas e Cuidados</Link></li>
             <li><Link href="/eventos">Eventos</Link></li>
             <li><Link href="/fale-conosco">Fale Conosco</Link></li>
           </ul>

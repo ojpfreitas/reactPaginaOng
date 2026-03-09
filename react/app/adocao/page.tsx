@@ -3,6 +3,7 @@
 import { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
+import Header from "../components/Header";
 
 interface AnimalCardProps {
   nome: string;
@@ -42,29 +43,7 @@ export default function Adocao() {
   return (
     <main className="container">
 
-      {/* HEADER */}
-      <header>
-        <div className="header">
-          <Image
-            src="/logos/logo-ong.png"
-            alt="Logo ONG"
-            width={100}
-            height={100}
-            className="logo"
-          />
-
-          <ul>
-            <li><Link href="/">Home</Link></li>
-            <li><Link href="/sobre">Sobre</Link></li>
-            <li><Link href="/adocao">Adoção</Link></li>
-            <li><Link href="/como-ajudar">Como Ajudar</Link></li>
-            <li><Link href="/dicas-cuidados">Dicas e Cuidados</Link></li>
-            <li><Link href="/eventos">Eventos</Link></li>
-            <li><Link href="/fale-conosco">Fale Conosco</Link></li>
-          </ul>
-        </div>
-        <div className="divIsolada"></div>
-      </header>
+      <Header />
 
       {/* COMO ADOTAR */}
       <div className="containerCorpo">
